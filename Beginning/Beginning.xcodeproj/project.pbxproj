@@ -11,6 +11,8 @@
 		4863098B251EFD0700E55297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4863098A251EFD0700E55297 /* ContentView.swift */; };
 		4863098D251EFD0B00E55297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4863098C251EFD0B00E55297 /* Assets.xcassets */; };
 		48630990251EFD0B00E55297 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4863098F251EFD0B00E55297 /* Preview Assets.xcassets */; };
+		4863099A251EFDFD00E55297 /* HeartButtonScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48630999251EFDFD00E55297 /* HeartButtonScaleEffect.swift */; };
+		4863099E251F144A00E55297 /* WKWebViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4863099D251F144A00E55297 /* WKWebViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4863098C251EFD0B00E55297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4863098F251EFD0B00E55297 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48630991251EFD0B00E55297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48630999251EFDFD00E55297 /* HeartButtonScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonScaleEffect.swift; sourceTree = "<group>"; };
+		4863099D251F144A00E55297 /* WKWebViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				48630988251EFD0700E55297 /* BeginningApp.swift */,
 				4863098A251EFD0700E55297 /* ContentView.swift */,
+				48630998251EFDD200E55297 /* Views */,
 				4863098C251EFD0B00E55297 /* Assets.xcassets */,
 				48630991251EFD0B00E55297 /* Info.plist */,
 				4863098E251EFD0B00E55297 /* Preview Content */,
@@ -67,6 +72,15 @@
 				4863098F251EFD0B00E55297 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48630998251EFDD200E55297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48630999251EFDFD00E55297 /* HeartButtonScaleEffect.swift */,
+				4863099D251F144A00E55297 /* WKWebViewRepresentable.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4863098B251EFD0700E55297 /* ContentView.swift in Sources */,
+				4863099A251EFDFD00E55297 /* HeartButtonScaleEffect.swift in Sources */,
+				4863099E251F144A00E55297 /* WKWebViewRepresentable.swift in Sources */,
 				48630989251EFD0700E55297 /* BeginningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
